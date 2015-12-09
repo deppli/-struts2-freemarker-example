@@ -1,1 +1,2 @@
-# -struts2-freemarker-example
+# struts2-freemarker-example
+freemarker结合struts2入门
