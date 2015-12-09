@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "struts2" "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+    <struts>
+    	<constant name="struts.ui.theme" value="simple"/>
+    	<package name="staff" extends="struts-default" namespace="/staff">
+    		<action name="staff_*" class="struts2.freemarker.action.StaffAction" method="{1}">
+    			<result name="login" type="freemarker">
+    				/WEB-INF/ftl/login.ftl
+    			</result>
+    			<result name="info" type="freemarker">
+    				/WEB-INF/ftl/info.ftl
+    			</result>
+    			<result name="relogin" type="redirectAction">
+    				<param name="actionName">staff_login</param>
+    			</result>
+    		</action>
+    	</package>
+    </struts>
