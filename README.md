@@ -8,10 +8,10 @@
 * 注意使用servlet版本，并且web.xml的struts2的配置必须是
  ```
  <filter-mapping>
-  <filter-name>struts2</filter-name>
-  <url-pattern>/*</url-pattern>
-  <dispatcher>REQUEST</dispatcher>   
-  <dispatcher>FORWARD</dispatcher> 
+ <filter-name>struts2</filter-name>
+ <url-pattern>/*</url-pattern>
+ <dispatcher>REQUEST</dispatcher>   
+ <dispatcher>FORWARD</dispatcher> 
  </filter-mapping>
 ```
  
