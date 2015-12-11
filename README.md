@@ -14,6 +14,6 @@
   <dispatcher>FORWARD</dispatcher> 
  </filter-mapping>
 ```
- 原因是因为urlrewrite通过forward转发请求，所以要让struts2的过滤器接受来自转发的请求
+ >原因是因为urlrewrite通过forward转发请求，所以要让struts2的过滤器接受来自转发的请求
 
   
